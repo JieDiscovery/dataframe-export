@@ -31,8 +31,6 @@ def main(df, **kwargs):
     sheet_name = (sheet_name if sheet_name else "Sheet1")
     sep = kwargs.get('sep', "\t")
     encoding = kwargs.get('encoding', "UTF-8")
-
-
     if create_xlsx_file:
         # transform DataFrame df into xlsx file
         pandas.io.formats.excel.ExcelFormatter.header_style = None
