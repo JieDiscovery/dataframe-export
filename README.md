@@ -13,6 +13,7 @@ In your bash:
 cd [to the folder contains dataframe-export.py]
 pip install virtualenv
 virtualenv env --python=python2.7
+source ./env/bin/activate
 pip install -r requirements.txt
 
 ```
